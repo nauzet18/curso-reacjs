@@ -4,7 +4,7 @@ import Location from './Location'
 
 const TiempoLocation = () => (
     <div>
-        <Location></Location>
+        <Location city={ 'Las Palmas' }></Location>
         <TiempoData></TiempoData>
     </div>
     

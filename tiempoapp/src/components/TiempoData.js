@@ -1,7 +1,12 @@
 import React from 'react'
+import TiempoExtraInfo from './TiempoExtraInfo'
+import TiempoTemperatura from './TiempoTemperatura'
 
 const TiempoData = () => (
-    <div>Tiempo DATA</div>
+    <div>
+        <TiempoTemperatura></TiempoTemperatura>
+        <TiempoExtraInfo></TiempoExtraInfo>
+    </div>
 )
 
 export default TiempoData;
