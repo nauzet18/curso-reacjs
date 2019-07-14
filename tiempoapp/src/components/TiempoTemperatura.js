@@ -1,5 +1,6 @@
 import React from 'react'
 import WeatherIcons from 'react-weathericons'
+import PropTypes from 'prop-types'
 
 const icons = {
     sunny: 'day-sunny',
@@ -18,5 +19,8 @@ const TiempoTemperatura = ({temp, state}) => (
         <span>{ `${temp} Cº`}</span>
     </div>
 )
-
+TiempoTemperatura.propTypes = {
+    temp: PropTypes.number.isRequired,
+    state: PropTypes.string.isRequired,
+}
 export default TiempoTemperatura;
