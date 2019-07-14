@@ -5,7 +5,7 @@ import TiempoTemperatura from './TiempoTemperatura'
 const TiempoData = () => (
     <div>
         <TiempoTemperatura></TiempoTemperatura>
-        <TiempoExtraInfo></TiempoExtraInfo>
+        <TiempoExtraInfo humedad={80} viento={'50 km/h'}></TiempoExtraInfo>
     </div>
 )
 
